@@ -3,7 +3,6 @@ package com.wilk.springboot.entity;
 
 import jakarta.persistence.*;
 import lombok.*;
-import org.springframework.cglib.core.GeneratorStrategy;
 
 @Getter
 @Setter

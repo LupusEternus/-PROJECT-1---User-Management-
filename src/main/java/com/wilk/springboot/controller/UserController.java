@@ -2,20 +2,13 @@ package com.wilk.springboot.controller;
 
 
 import com.wilk.springboot.dto.UserDto;
-import com.wilk.springboot.entity.User;
-import com.wilk.springboot.exception.ErrorDetails;
-import com.wilk.springboot.exception.ResourceNotfoundException;
-import com.wilk.springboot.mapper.UserMapper;
 import com.wilk.springboot.service.UserService;
 import jakarta.validation.Valid;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.HttpStatusCode;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.context.request.WebRequest;
 
-import java.time.LocalDateTime;
 import java.util.List;
 
 @RestController
